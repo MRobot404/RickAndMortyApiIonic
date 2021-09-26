@@ -9,19 +9,24 @@
 }
 
 #container strong {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 26px;
+  font-family: 'Oswald', sans-serif;
 }
 
 #container p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 22px;
-
-  color: #8c8c8c;
-
+  font-family: 'Gemunu Libre', sans-serif;
+  color: whitesmoke;
   margin: 0;
+  padding: 2%;
 }
 
 #container a {
-  text-decoration: none;
+ text-align: center;
+}
+ion-button{
+margin-top: 3%;
+color: whitesmoke;
 }

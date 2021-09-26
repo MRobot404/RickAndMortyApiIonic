@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Personajes</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item *ngFor="let character of characters"[routerLink]="['/home']">
+    <ion-avatar slot="start">
+      <img src="{{character.image}}" alt="" >
+    </ion-avatar>
+    <ion-label>{{character.name}}</ion-label>
+  </ion-item>
+</ion-content>
